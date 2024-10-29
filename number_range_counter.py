@@ -27,3 +27,7 @@ def count_number_range(number_range):
 
     # 5. Return the counts for each range
     return counts_in_range
+
+# 6. Initialize an empty list to store valid user inputs
+number_range = []
+
