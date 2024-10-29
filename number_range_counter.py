@@ -47,3 +47,6 @@ while True:
         # 10. Handle invalid input and exit the loop
         print("Invalid input! Exiting program.")
         break
+
+# 11. Evaluate the counts for each range
+counts_in_range = count_number_range(number_range)
