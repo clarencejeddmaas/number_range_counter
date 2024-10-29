@@ -36,3 +36,10 @@ while True:
     try:
         number = int(input("Enter a number between 1 and 50: "))
 
+ # 8. Check if the number is within the allowed range
+        if 1 <= number <= 50:
+            # 9. Add the number to the list if valid
+            number_range.append(number)
+        else:
+            print("Error! Number is out of range.")
+            break
