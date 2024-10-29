@@ -50,3 +50,11 @@ while True:
 
 # 11. Evaluate the counts for each range
 counts_in_range = count_number_range(number_range)
+
+# 12. Display the counts for each range to the user
+print("\nNumber of valid inputs in each range:\n")
+print("1-10 =", counts_in_range["1-10"])
+print("11-20 =", counts_in_range["11-20"])
+print("21-30 =", counts_in_range["21-30"])
+print("31-40 =", counts_in_range["31-40"])
+print("41-50 =", counts_in_range["41-50"])
