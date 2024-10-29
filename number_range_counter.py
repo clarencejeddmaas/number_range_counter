@@ -25,5 +25,5 @@ def count_number_range(number_range):
         else:
             print("Error! Number exceeded in given range.")
 
-    # 6. Return the counts for each range
+    # 5. Return the counts for each range
     return counts_in_range
