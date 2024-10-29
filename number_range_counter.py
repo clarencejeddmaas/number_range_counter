@@ -31,3 +31,8 @@ def count_number_range(number_range):
 # 6. Initialize an empty list to store valid user inputs
 number_range = []
 
+# 7. Use a loop to continuously ask the user for input
+while True:
+    try:
+        number = int(input("Enter a number between 1 and 50: "))
+
