@@ -24,3 +24,6 @@ def count_number_range(number_range):
             counts_in_range["41-50"] += 1
         else:
             print("Error! Number exceeded in given range.")
+
+    # 6. Return the counts for each range
+    return counts_in_range
