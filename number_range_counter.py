@@ -43,3 +43,7 @@ while True:
         else:
             print("Error! Number is out of range.")
             break
+    except ValueError:
+        # 10. Handle invalid input and exit the loop
+        print("Invalid input! Exiting program.")
+        break
